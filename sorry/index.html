@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorry</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+      <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>I am Sorry...... <img src="sorry.jpg" alt="" height="40px" width="40px">!</h1>
+        <p>
+            Shahista I see in your eyes you’re disappointed, cause I’m the foolish one that you anointed with your heart. I tore it apart. And Shahista what a mess I made upon your innocence. And no woman in the world deserves this, but here I am, asking you for one more chance.
+        </p>
+        <div class="img"><img src="giphy.gif" alt=""></div>
+    </div>
+    <div id="byy">
+        <a href="page2.html">
+       <button onclick="doSomething" id="bn" style="font-size: 25px; height: 60px;">It's okay. I Forgive You</button>
+    </a>
+   
+    <a href="page3.html">
+       <button onclick="noComment()" id="tn" style="font-size: 25px;height: 60px;">No... I'll Never Forgive You</button>
+
+    </a>
+    </div>
+    <script>
+        function doSomething(){
+            document.querySelector('#bn').href = "page2.html";
+        }
+        function noComment(){
+            document.querySelector('#tn').href = "page3.html";
+        }
+
+    </script>
+</body>
+</html>

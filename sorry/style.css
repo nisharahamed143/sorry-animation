@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#app {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+#app h1{
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    size: 2.5rem;
+}
+#app p{
+    font-size: 1.5rem;
+    display: flex;
+    font-style: italic;
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 200px;
+}
+/* for page forgive */
+#bbc{
+    margin-top: 20px;
+    text-align: center;
+}
+#bbc h1{
+    margin: 20px;
+    margin-top: 100px;
+    padding: 20px;
+    size: 2.5rem;
+    font-style: italic;
+}
+.sp{
+    margin: 20px;
+    padding: 20px;
+}
+ .img{
+    margin: 20px;
+    padding: 20px;
+}
+#byy{
+    text-align: center;
+    height: 100px;
+}
+#byy #bn{
+    width: 300px;
+    margin-right: 30px;
+    border-radius: 15px;
+    background-color: mediumseagreen;
+    font-style: italic;
+}
+#byy #tn{
+    width: 350px;
+    margin-left: 30px;
+    border-radius: 15px;
+    background-color: crimson;
+    font-style: italic;
+}
+
